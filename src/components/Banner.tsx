@@ -16,8 +16,7 @@ export default function Banner(){
             <Image src={covers[index%3]}
             alt='cover'
             fill={true}
-            priority
-            objectFit='cover'/>
+            className='object-cover'/>
             <div className={styles.bannerText}>
                 <h1 className='text-4xl font-medium'>Your Travel Partner</h1>
                 <h3 className='text-xl font-serif'>Explore Your World With us</h3>

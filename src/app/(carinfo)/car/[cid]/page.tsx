@@ -25,7 +25,7 @@ export default async function CarDetailPage({params}:{params:{cid:string}}){
         <main className="text-center p-5">
             <h1 className="text-lg font-medium">{carDetail.data.model}</h1>
             <div className="flex flex-row my-5">
-                <img src={carDetail.data.picture} alt='Car Image' width={0} height={0} sizes="100vw"
+                <Image src={carDetail.data.picture} alt='Car Image' width={0} height={0} sizes="100vw"
                 className="rounded-lg w-[30%]"/>
                 <div>
                     <div className="text-md mx-5 text-left">{carDetail.data.description}</div>
